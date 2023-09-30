@@ -32,4 +32,16 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-size: 3em;
+  color: #fff;
+}
+
+.menu .toggle ion-icon {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.menu .toggle ion-icon:nth-child(1) {
+  opacity: 1;
 }
